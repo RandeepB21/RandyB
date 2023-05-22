@@ -1,0 +1,19 @@
+baseURL: http://localhost:1313/
+languageCode: en-us
+title: Randy Bedi
+theme: PaperMod
+
+menu:  
+    main:
+        -   identifier: about me
+            name: About Me
+            url: /aboutme/
+            weight: 10
+        -   identifier: projects
+            name: Projects
+            url: /projects/
+            weight: 20
+        -   identifier: interests
+            name: Interests
+            url: /interests/
+            weight: 30
