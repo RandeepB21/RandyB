@@ -3,6 +3,24 @@ languageCode: en-us
 title: Randy Bedi
 theme: PaperMod
 
+
+params:
+    cover:
+        linkFullImages: true
+
+    homeInfoParams:
+        title: "Randy Bedi"
+        
+       
+        
+
+    socialIcons: 
+        - name: github
+          url: "https://github.com/RandeepB21"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/randeep-bedi"
+        - name: email
+          url: mailto:r4bedi@uwaterloo.ca
 menu:  
     main:
         -   identifier: about me
@@ -17,3 +35,6 @@ menu:
             name: Interests
             url: /interests/
             weight: 30
+
+disableAnchoredHeadings: true
+disableSpecial1stPost: true
